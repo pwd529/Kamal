@@ -28,9 +28,7 @@ for fname in files:
         print("Could not process file",fname,". This is probably because it contains text outside of the header line. It has been skipped.")
         continue
     x = data[:,0]
-    y = data[:,1]
-    scaling factor = y[x==0][0]
-    yn = data[:,1]/ scaling factor
+    y = data[:,1] / 0.529
     
     # ----- DATA MANIPULATION --------------------------------------------------------------
     # Uncomment the relevent line from this section or add your own code
