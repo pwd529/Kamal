@@ -51,7 +51,7 @@ for fname in files:
 
     # This creates a line graph, adding a straight line between each point
     # in the input data file
-    ax.plot(x,yn,label='Data')
+    ax.plot(x,y,label='Data')
 
     # Add labels to the x and y axes
     ax.set_xlabel("X axis")
